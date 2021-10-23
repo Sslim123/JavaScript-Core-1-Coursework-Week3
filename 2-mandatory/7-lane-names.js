@@ -4,9 +4,18 @@
   Write a function that will return all street names which contain 'Lane' in their name.
 
   HINT: string and array methods that could be helpful (indexOf, filter)
-*/
+*/const streetNames = [
+  "Abchurch Lane",
+  "Adam's Court",
+  "Addle Hill",
+  "Addle Lane",
+  "Alban Highwalk",
+];
 
-function getLanes() {}
+funct = streetNames.incloudes( getLanes(lan) => ({ 
+return 
+
+)};
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

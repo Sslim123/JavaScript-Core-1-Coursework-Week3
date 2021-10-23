@@ -11,11 +11,22 @@
   HINT: Whenever you read the above the instructions, try to come up with the main input and output and logic
         Input: Is an array
         Output: Is an array
-        Logic: Only strings that start with A, and finish with family
+        Logic: Only strings that start with A, and finish with family*/
+ const voyagers = ["Adam family", "Potter family", "Eric", "Aldous", "Button family","Jude", "Carmichael", "Bunny",
+          "Asimov",
+          "Oscar family",
+          "Avery family",
+          "Archer family",
+          "Just A. family",
+          "A Great family",
+        ];
+      
+function getSettlers(findMy) {
+  return findMy.length > 11;
   
-*/
-
-function getSettlers() {}
+}
+let voyage =(getSettlers);
+console.log(voyage);
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

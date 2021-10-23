@@ -8,9 +8,9 @@
 
 let statement = "I do not like programming";
 
-let result = "";
-
-console.log(result);
+let result =  statement.substring(0, 4);
+let reult = statement.substring(8, 26);
+console.log(result, reult);
 
 /* EXPECTED OUTPUT 
 

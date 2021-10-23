@@ -26,7 +26,6 @@ function checkCodeIsThere(stringText) {
     return "Not found";
   }
 }
-
 /*
   I am new to London and would like to know what transport I can take to different famous locations.
   The input provided contains a list of locations in London. Each of locations is followed by a list
@@ -63,8 +62,17 @@ function checkCodeIsThere(stringText) {
      e.g: ["tube", "river boat"]
   
   Hint: Use the corresponding array method to split the array.
-*/
-function getTransportModes() {}
+*/const londonLocations = [
+  ["Angel", "tube", "bus"],
+  ["London Bridge", "tube", "river boat"],
+  ["Tower Bridge", "tube", "bus"],
+  ["Greenwich", "bus", "river boat"],
+];
+//function getTransportModes(my) {
+let newArray = londonLocations.split(" ");
+console.log(newArray[3]);
+
+//}
 
 /*
   Implement the function isAccessibleByTransportMode that

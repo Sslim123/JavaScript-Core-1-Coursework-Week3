@@ -10,9 +10,14 @@
 
     Some string methods that might help you here are .replace() and .substring(). 
 */
+let oxygen = ["24.2%", "11.3%", "19.9%", "23.1%", "29.3%", "20.2%"];
 
-function findSafeOxygenLevel() {}
-
+let findSafe = oxygen.filter(function(oxyge) {
+  if(oxyge < "20.2%" && oxyge > "11.3%"){
+    return true;
+  }
+});
+console.log(findSafe);
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 test("findSafeOxygenLevel function works - case 1", () => {

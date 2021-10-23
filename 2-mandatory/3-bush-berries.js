@@ -20,10 +20,16 @@
   
   Let's first look at an example that will teach you how to use these methods.
 */
+isBush = ["pink", "pink", "pink", "neon", "pink", "transparent"];
 
-function isBushSafe(berryArray) {
+function isBushSafe(barry) {
+  isBush.includes("toxic");
+  return "toxic leave the barry alone";
+  
   //Write your code here
 }
+let myBush = isBushSafe();
+console.log(myBush);
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

@@ -5,10 +5,29 @@
   - Accepts an array which contains all the students' names and their attendance counts
     (see tests to confirm how this data will be structured)
   - Returns an array containing only the names of the who have attended AT LEAST 8 classes
+*/const attendance = [["Ahmed", 8],["Clement", 10],["Elamin", 6],["Adam", 7],
+  ["Tayoa", 11],
+  ["Nina", 10],
+];
+let my = attendance.filter(function(age){
+if(age >= 8){
+  return true;
+}
+});
+console.log(my);
+/*
+let result = [];
+function getEligibleStudents() {
+ for(let i = 0; i > attendance.length; i++){
+   if(attendance[i] >= 8){
+
+    return  result.push(attendance[i]);
+ }
+}}
+let resul = getEligibleStudents();
+
+console.log(resul);
 */
-
-function getEligibleStudents() {}
-
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 test("getEligibleStudents function works", () => {

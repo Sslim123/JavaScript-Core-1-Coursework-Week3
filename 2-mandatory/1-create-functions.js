@@ -3,16 +3,26 @@ Write a function that:
 - Accepts an array as a parameter.
 - Returns a new array containing the first five elements of the passed array.
 */
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
 function first5() {
+  return numbers.slice(0, 5);
 }
+let myFirst = first5();
+console.log(myFirst);
 
 /*
 Write a function that:
 - Accepts an array as a parameter.
 - Returns a new array containing the same elements, except sorted.
 */
+const letters = ["z", "y", "x"];
+
 function sortArray() {
+  return letters.sort();
 }
+let sortTheFunction = sortArray();
+console.log(sortTheFunction);
 
 /*
 NOTE: This exercise is the same as one you did last week - try to do it again using things you learnt this week.
@@ -23,7 +33,7 @@ Write a function that:
 - Removes any spaces in the beginning or end each string.
 - Removes any forward slashes (/) in the strings.
 - Makes the strings all lowercase.
-*/
+*/let tidy = ["a", "n", "c", "e", "z", "f"];
 function tidyUpString() {
 }
 
@@ -32,7 +42,7 @@ Write a function that:
 - Takes an array and an index as input.
 - Returns a new array containing the same elements, but without the element at the passed index.
 */
-
+let myRemove = [[1, 2, 3, 4, 5], 4];
 function remove() {
 }
 
