@@ -8,12 +8,24 @@
 */
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-arr.forEach(function(side){
- 
-//let words = arr.split(" ");
-//console.log(words[5]);
-console.log(side);
-});
+
+function multiple(n) {
+	if (n % 3 === 0 && n % 5 === 0) {
+		return (n = 'FizzBuzz');
+	}
+   else if (n % 3 === 0) {
+		return (n = 'Fizz');
+	}
+   else if (n % 5 === 0) {
+		return (n = 'Buzz');
+	}
+   else {
+     return n;
+}
+}
+ arr.map(multiple).forEach((n) => console.log(n));
+
+
 
 /* EXPECTED OUTPUT */
 

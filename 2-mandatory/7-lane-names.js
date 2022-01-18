@@ -12,10 +12,12 @@
   "Alban Highwalk",
 ];
 
-funct = streetNames.incloudes( getLanes(lan) => ({ 
-return 
+function getLanes(streetNames) {
+  return streetNames.indexOf("Lane"); 
 
-)};
+}
+let street = getLanes();
+console.log(street);
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

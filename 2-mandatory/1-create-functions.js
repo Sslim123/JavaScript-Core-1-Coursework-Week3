@@ -5,7 +5,7 @@ Write a function that:
 */
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
-function first5() {
+function first5(numbers) {
   return numbers.slice(0, 5);
 }
 let myFirst = first5();
@@ -18,7 +18,7 @@ Write a function that:
 */
 const letters = ["z", "y", "x"];
 
-function sortArray() {
+function sortArray(letters) {
   return letters.sort();
 }
 let sortTheFunction = sortArray();
@@ -34,8 +34,11 @@ Write a function that:
 - Removes any forward slashes (/) in the strings.
 - Makes the strings all lowercase.
 */let tidy = ["a", "n", "c", "e", "z", "f"];
-function tidyUpString() {
+function tidyUpString(tidy) {
+  return tidy.split().join("/");
 }
+let newTidy = tidyUpString();
+console.log(newTidy);
 
 /*
 Write a function that:
@@ -43,9 +46,11 @@ Write a function that:
 - Returns a new array containing the same elements, but without the element at the passed index.
 */
 let myRemove = [[1, 2, 3, 4, 5], 4];
-function remove() {
+function remove(myRemove) {
+  return myRemove.slice(0, 1);
 }
-
+let theSlice = remove();
+console.log(newSlice);
 /*
 Write a function that:
 - Takes an array of numbers as input.
